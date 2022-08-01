@@ -86,7 +86,7 @@
 
 /* RODAPÉ */
 
-footer {
+/* footer {
     width: auto;
     height: 40px;
     background-color: #000;
@@ -118,4 +118,38 @@ footer {
 .footer-texto a:hover {
     color: #0a4d99;
     text-decoration: none;
+} */
+
+@media (max-width: 800px) {
+    .box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box .right img {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .box .right p {
+        margin: 20px 30px;
+    }
+
+    .box .left h1 {
+        margin: 20px 0;
+    }
+
+    .box .left input {
+        width: 100%;
+    }
+
+    .box .left {
+        padding: 0px 20px;
+        margin: 0px 20px;
+    }
 }
