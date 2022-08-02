@@ -24,21 +24,19 @@ body {
 
 .box {
     background-image: radial-gradient(#eaffd1, #97ff7c);
-    background-repeat: no-repeat;
-    background-size: 100%;
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 20px;
-    height: 600px;
+    height: 520px;
     border-radius: 20px;
+    border: 5px solid #02b700;
 }
 
 .box .left {
     width: 100%;
-    margin-right: 50px;
-    margin-left: 20px;
-    max-width: 600px;
+    margin: 0 35px;
+    max-width: 520px;
 }
 
 .box .left h1 {
@@ -76,8 +74,7 @@ body {
     height: auto;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 20px;
+    margin: 0 35px;
 }
 
 .box .right .principal {
@@ -95,8 +92,8 @@ body {
 
 /* RODAPÉ */
 
-/* footer {
-    width: auto;
+footer {
+    width: 100vw;
     height: 40px;
     background-color: #000;
     display: flex;
@@ -104,35 +101,11 @@ body {
     justify-content: center;
 }
 
-.rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-texto {
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-align: center;
-    font-variant: small-caps;
-}
-
-.footer-texto a {
-    color: #7ac9e9;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.footer-texto a:hover {
-    color: #0a4d99;
-    text-decoration: none;
-} */
-
 @media (max-width: 800px) {
     .box {
         flex-direction: column;
         height: auto;
+        margin: 2rem;
     }
 
     .box .right {
@@ -141,8 +114,7 @@ body {
     }
 
     .box .right img {
-        width: 90%;
-        margin: 10px;
+        width: 80%;
     }
 
     .box .right p {
