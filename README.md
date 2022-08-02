@@ -15,7 +15,7 @@
 <br/><hr/><br/>
 
 <p align="center">
-    <img alt="Vídeo" title="Vídeo" src="./Zaka-Cursos-6-July-2022.gif" />
+    <img alt="Vídeo" title="Vídeo" src="./img/apresentacao.gif" />
 </p>
 
 <br/><hr/><br/>
